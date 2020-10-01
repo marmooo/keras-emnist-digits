@@ -1,4 +1,4 @@
-### keras-emnist-digits
+# keras-emnist-digits
 EMNIST Digits classification with Keras
 
 ## Installation
