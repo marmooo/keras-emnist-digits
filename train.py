@@ -48,8 +48,6 @@ else:
     x_test, y_test = under_sampling(x_test, y_test)
     training_data = emnist.load_data(emnist_mat)
     (x_train_, y_train_), (x_test_, y_test_), mapping, num_classes = training_data
-    print(y_train.shape)
-    print(y_train_.shape)
     x_train = numpy.concatenate([x_train, x_train_])
     y_train = numpy.concatenate([y_train, y_train_])
     x_test = numpy.concatenate([x_test, x_test_])
